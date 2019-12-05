@@ -4,7 +4,7 @@ import bodyParser from 'body-parser';
 import routes from './src/routes/soccerRoutes';
 
 const app = express();
-const PORT = 3000;
+const PORT = 4000;
 
 // mongoose connection
 mongoose.Promise = global.Promise;
